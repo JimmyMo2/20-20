@@ -6659,18 +6659,18 @@ var AppModule = (function () {
                     links: [
                         { loadChildren: '../pages/about/about.module#AboutPageModule', name: 'AboutPage', segment: 'about', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/accountDetail/accountDetail.module#AccountDetailPageModule', name: 'AccountDetailPage', segment: 'accountDetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/accountSearch/accountSearch.module#AccountSearchPageModule', name: 'AccountSearchPage', segment: 'accountSearch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addattend/addattend.module#AddattendPageModule', name: 'AddattendPage', segment: 'addattend', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addmeetinginfo/addmeetinginfo.module#AddmeetinginfoPageModule', name: 'AddmeetinginfoPage', segment: 'addmeetinginfo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addotherpage/addotherpage.module#AddOtherPageModule', name: 'AddOtherPage', segment: 'addotherpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/addplanpage/addplanpage.module#AddplanpagePageModule', name: 'AddplanpagePage', segment: 'addplanpage', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/advancemoney/advancemoney.module#AdvancemoneyPageModule', name: 'AdvancemoneyPage', segment: 'advancemoney', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approve/approve.module#ApprovePageModule', name: 'ApprovePage', segment: 'approve', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/accountSearch/accountSearch.module#AccountSearchPageModule', name: 'AccountSearchPage', segment: 'accountSearch', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvedetail/approvedetail.module#ApprovedetailPageModule', name: 'ApprovedetailPage', segment: 'approvedetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvedpenddetail/approvedpenddetail.module#ApprovedpenddetailPageModule', name: 'ApprovedpenddetailPage', segment: 'approvedpenddetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvedpending/approvedpending.module#ApprovedpendingPageModule', name: 'ApprovedpendingPage', segment: 'approvedpending', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/approveprojectdetail/approveprojectdetail.module#ApproveprojectdetailPageModule', name: 'ApproveprojectdetailPage', segment: 'approveprojectdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approveindiadetail/approveindiadetail.module#ApproveindiadetailPageModule', name: 'ApproveindiadetailPage', segment: 'approveindiadetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/approveprojectdetail/approveprojectdetail.module#ApproveprojectdetailPageModule', name: 'ApproveprojectdetailPage', segment: 'approveprojectdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/approvewechartdetail/approvewechartdetail.module#ApprovewechartdetailPageModule', name: 'ApprovewechartdetailPage', segment: 'approvewechartdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/arrivalremind/arrivalremind.module#ArrivalremindPageModule', name: 'ArrivalremindPage', segment: 'arrivalremind', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/attendees/attendees.module#AttendeesPageModule', name: 'AttendeesPage', segment: 'attendees', priority: 'low', defaultHistory: [] },
@@ -6685,9 +6685,9 @@ var AppModule = (function () {
                         { loadChildren: '../pages/customer/customer.module#CustomerPageModule', name: 'CustomerPage', segment: 'customer', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customerdetail/customerdetail.module#CustomerDetailPageModule', name: 'CustomerDetailPage', segment: 'customerdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customerlist/customerlist.module#CustomerlistPageModule', name: 'CustomerlistPage', segment: 'customerlist', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/customermanager/customermanager.module#CustomermanagerPageModule', name: 'CustomermanagerPage', segment: 'customermanager', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customermanagerdetail/customermanagerdetail.module#CustomermanagerdetailPageModule', name: 'CustomermanagerdetailPage', segment: 'customermanagerdetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customermanagerlist/customermanagerlist.module#CustomermanagerlistPageModule', name: 'CustomermanagerlistPage', segment: 'customermanagerlist', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/customermanager/customermanager.module#CustomermanagerPageModule', name: 'CustomermanagerPage', segment: 'customermanager', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/customermanagerprodetail/customermanagerprodetail.module#CustomermanagerprodetailPageModule', name: 'CustomermanagerprodetailPage', segment: 'customermanagerprodetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/enjoycard/enjoycard.module#EnjoycardPageModule', name: 'EnjoycardPage', segment: 'enjoycard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/examinerecord/examinerecord.module#ExaminerecordPageModule', name: 'ExaminerecordPage', segment: 'examinerecord', priority: 'low', defaultHistory: [] },
@@ -6712,18 +6712,18 @@ var AppModule = (function () {
                         { loadChildren: '../pages/projectDetail/projectDetail.module#ProjectDetailPageModule', name: 'ProjectDetailPage', segment: 'projectDetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/prompt/prompt.module#PromptPageModule', name: 'PromptPage', segment: 'prompt', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rate/rate.module#RatePageModule', name: 'RatePage', segment: 'rate', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/rateDetail/rateDetail.module#RateDetailPageModule', name: 'RateDetailPage', segment: 'rateDetail', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/reception/reception.module#ReceptionPageModule', name: 'ReceptionPage', segment: 'reception', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/regularclient/regularclient.module#RegularclientPageModule', name: 'RegularclientPage', segment: 'regularclient', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/report/report.module#ReportPageModule', name: 'ReportPage', segment: 'report', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rtprecord/rtprecord.module#RtprecordPageModule', name: 'RtprecordPage', segment: 'rtprecord', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/searchlist/searchlist.module#SearchlistPageModule', name: 'SearchlistPage', segment: 'searchlist', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'tabs', segment: 'tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/targetdetail/targetdetail.module#TargetdetailPageModule', name: 'TargetdetailPage', segment: 'targetdetail', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reception/reception.module#ReceptionPageModule', name: 'ReceptionPage', segment: 'reception', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/visidetail/visidetail.module#VisidetailPageModule', name: 'VisidetailPage', segment: 'visidetail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/visit/visit.module#VisitPageModule', name: 'VisitPage', segment: 'visit', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/visitlist/visitlist.module#VisitlistPageModule', name: 'VisitlistPage', segment: 'visitlist', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/workbench/workbench.module#WorkBenchModule', name: 'WorkBench', segment: 'workbench', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/workbench/workbench.module#WorkBenchModule', name: 'WorkBench', segment: 'workbench', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/rateDetail/rateDetail.module#RateDetailPageModule', name: 'RateDetailPage', segment: 'rateDetail', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_15__angular_common_http__["b" /* HttpClientModule */],
@@ -9364,7 +9364,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_14" /* enableProdMode */])();
 var addreportPage = (function () {
-    function addreportPage(platform, navCtrl, navParams, alertCtrl, viewCtrl, modalCtrl, httpService, actionSheetCtrl) {
+    function addreportPage(platform, navCtrl, navParams, alertCtrl, viewCtrl, modalCtrl, httpService, actionSheetCtrl, toastCtrl
+        // public CameraPage: CameraPage
+    ) {
         var _this = this;
         this.platform = platform;
         this.navCtrl = navCtrl;
@@ -9374,6 +9376,7 @@ var addreportPage = (function () {
         this.modalCtrl = modalCtrl;
         this.httpService = httpService;
         this.actionSheetCtrl = actionSheetCtrl;
+        this.toastCtrl = toastCtrl;
         this.people = [];
         this.peerpames = [];
         this.myList = [];
@@ -9394,6 +9397,7 @@ var addreportPage = (function () {
         this.lnglatXY = [];
         this.isAttend = "none";
         this.imgUrl = [];
+        this.imgUrl1 = [];
         // ***
         this.isChange = false; //头像是否改变标识
         this.avatarPath = './assets/img/qr_code.png'; //用户默认头像
@@ -9534,14 +9538,27 @@ var addreportPage = (function () {
                     role: 'destructive',
                     handler: function () {
                         _this.openCamera();
-                        console.log("打开了相机");
+                        if (_this.imgUrl.length > 0) {
+                            _this.isAttend = "block";
+                            _this.imgUrl1 = _this.imgUrl;
+                        }
+                        else {
+                            _this.isAttend = "none";
+                        }
+                        console.log("666");
                     }
                 }, {
                     text: '从相册选择',
                     icon: 'ios-arrow-forward',
                     handler: function () {
                         _this.openFile();
-                        console.log('从相册选择');
+                        if (_this.imgUrl.length > 0) {
+                            _this.isAttend = "block";
+                            _this.imgUrl1 = _this.imgUrl;
+                        }
+                        else {
+                            _this.isAttend = "none";
+                        }
                     }
                 }, {
                     text: '取消',
@@ -9555,14 +9572,13 @@ var addreportPage = (function () {
         actionSheet.present();
     };
     addreportPage.prototype.openCamera = function () {
-        this.isAttend = "block";
-        this.imgUrl = ["http://via.placeholder.com/150x100", "http://via.placeholder.com/150x100", "http://via.placeholder.com/150x100"];
+        this.imgUrl = [];
         var $this = this;
         XuntongJSBridge.call('selectPic', { 'type': 'camera' }, function (result) {
             var success = JSON.stringify(result.success);
             if (success == 'true') {
                 var imgdata = "data:image/" + result.data.fileExt + ":base64," + result.data.fileData;
-                this.imgUrl.push(imgdata);
+                $this.imgUrl.push(imgdata);
             }
         });
     };
@@ -9572,7 +9588,7 @@ var addreportPage = (function () {
             var success = String(result.success);
             if (success == "true") {
                 var imgdata = "data:image/" + result.data.fileExt + ":base64," + result.data.fileData;
-                this.imgUrl.push(imgdata);
+                $this.imgUrl.push(imgdata);
             }
         });
     };
@@ -9821,20 +9837,27 @@ var addreportPage = (function () {
     };
     //获得当前位置信息
     addreportPage.prototype.locationFunction = function () {
+        var $this = this;
         console.log("定位签到");
         XuntongJSBridge.call('getLocation', {}, function (result) {
-            console.log("=====1====");
-            if (result.success == true) {
-                console.log(result.data);
+            var success = String(result.success);
+            if (success == "true") {
+                $this.reports.endtime = new Date().toString();
+                $this.getValues = result.data.addressdetail;
             }
             else {
-                console.log("定位失败");
+                var toast = $this.toastCtrl.create({
+                    message: '定位失败',
+                    duration: 3000,
+                    position: 'middle'
+                });
+                toast.present();
             }
         });
     };
     addreportPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addreportpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      新增走访报告\n    </ion-title>\n    <div class="remark-save" (click)="addReport(0)">保存</div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n<!--去掉会议类型栏-->\n  <!--<div class="row nav-filtrate">-->\n    <!--&lt;!&ndash;<ion-label style="color: red">*</ion-label>&ndash;&gt;-->\n    <!--<ion-label class="divlist"><label style="color: red;padding-left:10px"></label>会议类型</ion-label>-->\n    <!--<div (click)="showMyList(\'stat\')" class="select-state select ">-->\n      <!--<label>-->\n        <!--<span>{{stateSelectval}}</span>-->\n        <!--<ion-label class="img4 imgall4"></ion-label>-->\n      <!--</label>-->\n    <!--</div>-->\n    <!--<ion-list [ngClass]="{show:select.ismyListshow}" radio-group style="margin-left:32%;width: 70%;float: right;display: none">-->\n      <!--<ion-item *ngFor="let item of myList" class="items" style="border-bottom: 0.55px solid #c8c7cc;font-size: 1.4rem;">-->\n        <!--<ion-label>{{item.option}}</ion-label>-->\n        <!--<ion-radio (click)="getValues(item.option)" value="{{item.option}}"></ion-radio>-->\n      <!--</ion-item>-->\n    <!--</ion-list>-->\n  <!--</div>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" style="width: 25%;padding-left: 10px" fixed>客户名称</ion-label>\n    <ion-input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer" (keyup)="goSearch()"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n		<div class="lists_cont">\n			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n		</div>\n  </div>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>走访进度</ion-label>\n    <ion-input type="text" placeholder="请输入走访进度" [(ngModel)]="reports.pace"></ion-input>\n  </ion-item>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户地址</ion-label>\n    <ion-input type="text" placeholder="客户地址" disabled=\'ture\' [(ngModel)]="reports.address" [value]="location"></ion-input>\n    <ion-input type = "button" value="定位签到" class="imgall location" (click) = "locationFunction()">定位签到</ion-input>\n  </ion-item>\n\n	<ion-item id="endtime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px">计划走访时间</ion-label>\n    <ion-datetime cancelText="取消" doneText="确定" style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [min]="minTime" [(ngModel)]="reports.starttime" (ngModelChange)="changeDate($event)"></ion-datetime>\n    <ion-label class="img2 imgall2"></ion-label>\n  </ion-item>\n  <ion-item id="starttime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px"><label style="color: red"></label>实际走访时间</ion-label><!--style="max-width: 22%;margin-left: 1%"-->\n    <ion-input type="text" placeholder="实际走访时间" [(ngModel)]="reports.endtime" disabled="true"></ion-input>\n    <!--<ion-datetime id="chostarttime" cancelText="取消" doneText="确定"  style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [(ngModel)]="newtime.endtime" (ngModelChange)="changeDate($event)"></ion-datetime>-->\n    <!--<ion-label class="img imgall"></ion-label>-->\n  </ion-item>\n\n\n	<!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>行内人员</ion-label>\n    <ion-input type="text" placeholder="请输入行内人员"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>与会人员</ion-label>\n    <!--<ion-input type="text" placeholder="请添加拜访客户"disabled="true"></ion-input>-->\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees($event)">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isDisplayAttend}">\n   <div class="attend_cont">\n     <div class="attend" *ngFor="let item of attends" ><span>{{item.name}}</span>><i class="icon-del" (click) = "fadeOut($event)"></i></div>\n   </div>\n  </ion-item>\n\n\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>拜访照片</ion-label>\n    <ion-input type="button" value="请输入拜访照片" (click)="presentActionSheet()" style ="border: 2px dashed #ccc;">请输入拜访照片</ion-input>\n  </ion-item>\n\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isAttend}">\n    <div class="attend_cont">\n      <div class="picImg" *ngFor="let item of imgUrl"><img [src]="item" alt="照片"><i class="icon-dell" (click) = "fadeOOut($event)"></i></div>\n    </div>\n  </ion-item>\n\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>主要目的</ion-label>\n    <ion-textarea col=\'10\' placeholder="主要目的" [(ngModel)]="reports.mainpPurpose"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户数据</ion-label>\n    <ion-textarea col=\'10\' placeholder="客户数据" [(ngModel)]="reports.customData"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈过程</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈过程" [(ngModel)]="reports.talkProcess"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈结论</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈结论" [(ngModel)]="reports.talkResult"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>其它信息</ion-label>\n    <ion-textarea col=\'10\' placeholder="其它信息" [(ngModel)]="reports.otherMsg"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <div class="btn_box">\n    	<div class="add_btn" (click)="addReport(1)">提交</div>\n      <div class="add_edit" *ngIf="isShowEdit" (click)="editReport(1)">改期</div>\n      <div class="add_cancel" (click)="cancelReport()">取消</div>\n    </div>\n  </ion-item>\n\n\n  <!--<ion-item class="itemclass">\n    <ion-label class="market-list-name">发起人</ion-label>\n    <ion-input type="text" class="market-list-cont" value="张三"></ion-input>\n  </ion-item>-->\n  <!--<ion-item class="itemclass">-->\n    <!--<ion-label  class="divlist"  fixed style="max-width: 25%;padding-left: 15px"><label style="color: red">*&nbsp;</label>参与人</ion-label>-->\n    <!--<ion-input type="text"   placeholder="请选择会议参与人" disabled="true" value="{{people}}" (click)="gotochoosepeo()"></ion-input>-->\n    <!--<ion-label class="img3 imgall3"></ion-label>-->\n  <!--</ion-item>-->\n\n\n  <!--<ion-item>\n    <ion-label class="market-list-name">提醒</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">日程开始时</ion-option>\n      <ion-option value="2">提前5分钟</ion-option>\n      <ion-option value="3">提前15分钟</ion-option>\n      <ion-option value="4">提前30分钟</ion-option>\n      <ion-option value="5">提前1小时</ion-option>\n      <ion-option value="6">提前1天</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">重复</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">不重复</ion-option>\n      <ion-option value="2">每天</ion-option>\n      <ion-option value="3">每周</ion-option>\n      <ion-option value="4">每两周</ion-option>\n      <ion-option value="5">每月</ion-option>\n      <ion-option value="6">每年</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">备注</ion-label>\n    <ion-input placeholder="添加备注"></ion-input>\n  </ion-item>-->\n  <div class="prompt_main" [ngStyle]="{\'display\':isBlock}">\n  	<div class="prompt_cont">\n  		<div class="prompt">\n	   	"新增走访记录"功能仅用于添加无走访计划的临时走访，如您已有走访计划，请通过走访计划页面撰写走访记录。否则会导致您的走访计划变为过期未走访。\n	   </div>\n	   <div class="prompt_checkbox">\n	   		<input type="checkbox" name=\'selected\' [(ngModel)]="isSelected" (ngModelChange)="isSelect()"/>\n	   		&nbsp;&nbsp;已知晓，不再提醒\n	   </div>\n\n	   <div class="submit" (click)="saveOther()">关闭提醒</div>\n\n  	</div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/
+            selector: 'page-addreportpage',template:/*ion-inline-start:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/'<ion-header class="header">\n  <ion-navbar>\n    <ion-title>\n      新增走访报告\n    </ion-title>\n    <div class="remark-save" (click)="addReport(0)">保存</div>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n<!--去掉会议类型栏-->\n  <!--<div class="row nav-filtrate">-->\n    <!--&lt;!&ndash;<ion-label style="color: red">*</ion-label>&ndash;&gt;-->\n    <!--<ion-label class="divlist"><label style="color: red;padding-left:10px"></label>会议类型</ion-label>-->\n    <!--<div (click)="showMyList(\'stat\')" class="select-state select ">-->\n      <!--<label>-->\n        <!--<span>{{stateSelectval}}</span>-->\n        <!--<ion-label class="img4 imgall4"></ion-label>-->\n      <!--</label>-->\n    <!--</div>-->\n    <!--<ion-list [ngClass]="{show:select.ismyListshow}" radio-group style="margin-left:32%;width: 70%;float: right;display: none">-->\n      <!--<ion-item *ngFor="let item of myList" class="items" style="border-bottom: 0.55px solid #c8c7cc;font-size: 1.4rem;">-->\n        <!--<ion-label>{{item.option}}</ion-label>-->\n        <!--<ion-radio (click)="getValues(item.option)" value="{{item.option}}"></ion-radio>-->\n      <!--</ion-item>-->\n    <!--</ion-list>-->\n  <!--</div>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" style="width: 25%;padding-left: 10px" fixed>客户名称</ion-label>\n    <ion-input type="text" placeholder="请输入客户名称" [(ngModel)]="reports.customer" (keyup)="goSearch()"></ion-input>\n  </ion-item>\n  <div class="serach_lists" [ngStyle]="{\'display\':isSearch}">\n		<div class="lists_cont">\n			<div class="list_item" (click)="goCustomer(item)" *ngFor="let item of searchLists">{{item.customName}}</div>\n		</div>\n  </div>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>走访进度</ion-label>\n    <ion-input type="text" placeholder="请输入走访进度" [(ngModel)]="reports.pace"></ion-input>\n  </ion-item>\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户地址</ion-label>\n    <ion-input type="text" placeholder="客户地址" disabled=\'ture\' [(ngModel)]="reports.address" [value]="location"></ion-input>\n    <ion-input type = "button" value="定位签到" class="imgall location" (click) = "locationFunction()">定位签到</ion-input>\n  </ion-item>\n\n	<ion-item id="endtime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px">计划走访时间</ion-label>\n    <ion-datetime cancelText="取消" doneText="确定" style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [min]="minTime" [(ngModel)]="reports.starttime" (ngModelChange)="changeDate($event)"></ion-datetime>\n    <ion-label class="img2 imgall2"></ion-label>\n  </ion-item>\n  <ion-item id="starttime" class="itemclass">\n    <ion-label  class="divlist" fixed style="max-width: 25%;padding-left: 10px"><label style="color: red"></label>实际走访时间</ion-label><!--style="max-width: 22%;margin-left: 1%"-->\n    <ion-input type="text" placeholder="实际走访时间" [(ngModel)]="reports.endtime" disabled="true"></ion-input>\n    <!--<ion-datetime id="chostarttime" cancelText="取消" doneText="确定"  style="width: 73%;" displayFormat="YYYY年MM月DD日 HH:mm" [(ngModel)]="newtime.endtime" (ngModelChange)="changeDate($event)"></ion-datetime>-->\n    <!--<ion-label class="img imgall"></ion-label>-->\n  </ion-item>\n\n\n	<!--<ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>行内人员</ion-label>\n    <ion-input type="text" placeholder="请输入行内人员"></ion-input>\n  </ion-item>-->\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>与会人员</ion-label>\n    <!--<ion-input type="text" placeholder="请添加拜访客户"disabled="true"></ion-input>-->\n    <ion-label class="imgall2  add_attendees" (click)="addAttendees($event)">\n    	<div class="add_img" >\n				<ion-icon name="md-add"></ion-icon>\n	    </div>\n    </ion-label>\n  </ion-item>\n\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isDisplayAttend}">\n   <div class="attend_cont">\n     <div class="attend" *ngFor="let item of attends" ><span>{{item.name}}</span>><i class="icon-del" (click) = "fadeOut($event)"></i></div>\n   </div>\n  </ion-item>\n\n\n  <ion-item class="itemclass">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>拜访照片</ion-label>\n    <ion-input type="button" value="请输入拜访照片" (click)="presentActionSheet()" style ="border: 2px dashed #ccc;">请输入拜访照片</ion-input>\n  </ion-item>\n\n  <ion-item class="itemclass item_attend" [ngStyle]="{\'display\':isAttend}">\n    <div class="attend_cont">\n      <div class="picImg" *ngFor="let item of imgUrl1"><img [src]="item" alt="照片"><i class="icon-dell" (click) = "fadeOOut($event)"></i></div>\n    </div>\n  </ion-item>\n\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>主要目的</ion-label>\n    <ion-textarea col=\'10\' placeholder="主要目的" [(ngModel)]="reports.mainpPurpose"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>客户数据</ion-label>\n    <ion-textarea col=\'10\' placeholder="客户数据" [(ngModel)]="reports.customData"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈过程</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈过程" [(ngModel)]="reports.talkProcess"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>会谈结论</ion-label>\n    <ion-textarea col=\'10\' placeholder="会谈结论" [(ngModel)]="reports.talkResult"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <ion-label  class="divlist" fixed> <label style="color: red;padding-left: 10px"></label>其它信息</ion-label>\n    <ion-textarea col=\'10\' placeholder="其它信息" [(ngModel)]="reports.otherMsg"></ion-textarea>\n  </ion-item>\n\n  <ion-item class="itemclass feedback">\n    <div class="btn_box">\n    	<div class="add_btn" (click)="addReport(1)">提交</div>\n      <div class="add_edit" *ngIf="isShowEdit" (click)="editReport(1)">改期</div>\n      <div class="add_cancel" (click)="cancelReport()">取消</div>\n    </div>\n  </ion-item>\n\n\n  <!--<ion-item class="itemclass">\n    <ion-label class="market-list-name">发起人</ion-label>\n    <ion-input type="text" class="market-list-cont" value="张三"></ion-input>\n  </ion-item>-->\n  <!--<ion-item class="itemclass">-->\n    <!--<ion-label  class="divlist"  fixed style="max-width: 25%;padding-left: 15px"><label style="color: red">*&nbsp;</label>参与人</ion-label>-->\n    <!--<ion-input type="text"   placeholder="请选择会议参与人" disabled="true" value="{{people}}" (click)="gotochoosepeo()"></ion-input>-->\n    <!--<ion-label class="img3 imgall3"></ion-label>-->\n  <!--</ion-item>-->\n\n\n  <!--<ion-item>\n    <ion-label class="market-list-name">提醒</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">日程开始时</ion-option>\n      <ion-option value="2">提前5分钟</ion-option>\n      <ion-option value="3">提前15分钟</ion-option>\n      <ion-option value="4">提前30分钟</ion-option>\n      <ion-option value="5">提前1小时</ion-option>\n      <ion-option value="6">提前1天</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">重复</ion-label>\n    <ion-select cancelText="取消" okText="确定">\n      <ion-option value="1">不重复</ion-option>\n      <ion-option value="2">每天</ion-option>\n      <ion-option value="3">每周</ion-option>\n      <ion-option value="4">每两周</ion-option>\n      <ion-option value="5">每月</ion-option>\n      <ion-option value="6">每年</ion-option>\n    </ion-select>\n  </ion-item>\n  <ion-item>\n    <ion-label class="market-list-name">备注</ion-label>\n    <ion-input placeholder="添加备注"></ion-input>\n  </ion-item>-->\n  <div class="prompt_main" [ngStyle]="{\'display\':isBlock}">\n  	<div class="prompt_cont">\n  		<div class="prompt">\n	   	"新增走访记录"功能仅用于添加无走访计划的临时走访，如您已有走访计划，请通过走访计划页面撰写走访记录。否则会导致您的走访计划变为过期未走访。\n	   </div>\n	   <div class="prompt_checkbox">\n	   		<input type="checkbox" name=\'selected\' [(ngModel)]="isSelected" (ngModelChange)="isSelect()"/>\n	   		&nbsp;&nbsp;已知晓，不再提醒\n	   </div>\n\n	   <div class="submit" (click)="saveOther()">关闭提醒</div>\n\n  	</div>\n  </div>\n</ion-content>\n'/*ion-inline-end:"E:\workspace\ionic3-angualr\src\pages\addreport\addreport.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */],
@@ -9843,7 +9866,10 @@ var addreportPage = (function () {
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* ViewController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ModalController */],
             __WEBPACK_IMPORTED_MODULE_2__providers_HttpService__["a" /* HttpService */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]])
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* ToastController */]
+            // public CameraPage: CameraPage
+        ])
     ], addreportPage);
     return addreportPage;
 }());
