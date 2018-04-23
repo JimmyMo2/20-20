@@ -31424,94 +31424,6 @@ page-home .home_menu {
   box-sizing: border-box;
 }
 
-page-home .customer_icon {
-  font-size: 1.6rem;
-  color: #79CDB2;
-}
-
-page-home .project_icon {
-  font-size: 1.6rem;
-  color: cornflowerblue;
-}
-
-page-home .rate_icon {
-  font-size: 1.6rem;
-  color: #F98685;
-}
-
-page-home .account_icon {
-  font-size: 1.6rem;
-  color: #FEBD7C;
-}
-
-page-home .balance_icon {
-  font-size: 1.6rem;
-  color: #8BD4BB;
-}
-
-page-home .market_icon {
-  font-size: 1.6rem;
-  color: #FDC88D;
-}
-
-page-home .icon {
-  font-size: 3.3rem;
-}
-
-page-home ion-icon::before {
-  display: inline-block;
-  position: absolute;
-  left: 3.6rem;
-  top: 0.6rem;
-}
-
-page-home .fontsize {
-  position: absolute;
-  left: 2rem;
-  top: 2rem;
-  font-size: 1.2rem;
-}
-
-page-home .fontColor1 {
-  color: #79CDB2;
-}
-
-page-home .fontColor2 {
-  color: cornflowerblue;
-}
-
-page-home .fontColor3 {
-  color: #F98685;
-}
-
-page-home .fontColor4 {
-  color: #FEBD7C;
-}
-
-page-home .fontColor5 {
-  color: #8BD4BB;
-}
-
-page-home .fontColor6 {
-  color: #FDC88D;
-}
-
-page-home .fontColor7 {
-  color: #FDC88D;
-}
-
-page-home .fontColor8 {
-  color: #FDC88D;
-}
-
-page-home .fontColor9 {
-  color: #FDC88D;
-}
-
-page-home .fontColor10 {
-  color: #FDC88D;
-}
-
 page-home .menu_list {
   display: -webkit-box;
   display: -webkit-flex;
@@ -31668,6 +31580,12 @@ page-home .pro_img {
   display: -webkit-box;
   max-width: 2rem;
   margin-right: 0.4rem;
+}
+
+page-home .pro_img_head {
+  display: -webkit-box;
+  max-width: 2rem;
+  margin: 1rem;
 }
 
 page-home .num_img {
