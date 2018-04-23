@@ -31458,10 +31458,17 @@ page-home .icon {
   font-size: 3.3rem;
 }
 
-page-home .fontSize {
+page-home ion-icon::before {
+  display: inline-block;
   position: absolute;
-  left: 11px;
-  top: 38px;
+  left: 3.6rem;
+  top: 0.6rem;
+}
+
+page-home .fontsize {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
   font-size: 1.2rem;
 }
 
